@@ -1,7 +1,5 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
+import projectConfig from '/pagic.config.js';
 export default {
-    'prev': null,
-    'next': null,
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "test_pages/front_matter.md",
     'layoutPath': "_layout.tsx",
@@ -15,7 +13,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/index.js", type: "module" })),
     'contentTitle': undefined,
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>This is a front matter test page.</p>\n<h2 id="the-front-matter-content">The front matter content<a class="anchor" href="#the-front-matter-content">§</a></h2>\n<pre class="language-yml"><code class="language-yml"><span class="token key atrule">outputPath</span><span class="token punctuation">:</span> test_pages/front_matter_test.html\n<span class="token key atrule">title</span><span class="token punctuation">:</span> Front matter test\n<span class="token key atrule">toc</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">prev</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n<span class="token key atrule">next</span><span class="token punctuation">:</span> <span class="token null important">null</span>\n</code></pre>'
@@ -29,48 +27,12 @@ export default {
     'updated': null,
     'excerpt': "This is a front matter test page. The front matter content outputPath: test_pages/front_matter_test.html title: Front matter test toc: null prev: null next: null ",
     'cover': undefined,
-    'sidebar': [
-        {
-            "text": "Introduction",
-            "link": "introduction/index.html",
-            "pagePath": "introduction/README.md"
-        },
-        {
-            "link": "test_pages/index.html",
-            "children": [
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                },
-                {
-                    "text": "Front matter test",
-                    "link": "test_pages/front_matter_test.html",
-                    "pagePath": "test_pages/front_matter.md"
-                },
-                {
-                    "text": "React hooks test",
-                    "link": "test_pages/react_hooks_test.html",
-                    "pagePath": "test_pages/react_hooks_test.tsx"
-                }
-            ],
-            "pagePath": "test_pages/README.md",
-            "text": "Test pages"
-        },
-        {
-            "text": "Folder",
-            "children": [
-                {
-                    "text": "Foo",
-                    "link": "folder/foo.html",
-                    "pagePath": "folder/foo.md"
-                },
-                {
-                    "text": "Custom sidebar text",
-                    "link": "folder/bar.html",
-                    "pagePath": "folder/bar.md"
-                }
-            ]
-        }
-    ]
+    'prev': null,
+    'next': null,
+    'blog': {
+        "isPost": false,
+        "posts": [],
+        "categories": [],
+        "tags": []
+    }
 };

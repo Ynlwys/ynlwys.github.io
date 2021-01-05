@@ -1,10 +1,5 @@
-import projectConfig from '/pagic_template_docs/pagic.config.js';
+import projectConfig from '/pagic.config.js';
 export default {
-    'prev': undefined,
-    'next': {
-        "link": "test_pages/index.html",
-        "text": "Test pages"
-    },
     config: { "root": "/", ...projectConfig, branch: 'main' },
     'pagePath': "introduction/README.md",
     'layoutPath': "_layout.tsx",
@@ -18,7 +13,7 @@ export default {
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
-        React.createElement("script", { src: "/pagic_template_docs/index.js", type: "module" })),
+        React.createElement("script", { src: "/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "Introduction"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
             __html: '<p>The introduction page.</p>'
@@ -32,48 +27,10 @@ export default {
     'updated': null,
     'excerpt': "The introduction page.",
     'cover': undefined,
-    'sidebar': [
-        {
-            "text": "Introduction",
-            "link": "introduction/index.html",
-            "pagePath": "introduction/README.md"
-        },
-        {
-            "link": "test_pages/index.html",
-            "children": [
-                {
-                    "text": "Markdown test",
-                    "link": "test_pages/markdown_test.html",
-                    "pagePath": "test_pages/markdown_test.md"
-                },
-                {
-                    "text": "Front matter test",
-                    "link": "test_pages/front_matter_test.html",
-                    "pagePath": "test_pages/front_matter.md"
-                },
-                {
-                    "text": "React hooks test",
-                    "link": "test_pages/react_hooks_test.html",
-                    "pagePath": "test_pages/react_hooks_test.tsx"
-                }
-            ],
-            "pagePath": "test_pages/README.md",
-            "text": "Test pages"
-        },
-        {
-            "text": "Folder",
-            "children": [
-                {
-                    "text": "Foo",
-                    "link": "folder/foo.html",
-                    "pagePath": "folder/foo.md"
-                },
-                {
-                    "text": "Custom sidebar text",
-                    "link": "folder/bar.html",
-                    "pagePath": "folder/bar.md"
-                }
-            ]
-        }
-    ]
+    'blog': {
+        "isPost": false,
+        "posts": [],
+        "categories": [],
+        "tags": []
+    }
 };
