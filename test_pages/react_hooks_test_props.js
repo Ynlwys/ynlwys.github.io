@@ -16,7 +16,7 @@ export default {
                 }
             },
             branch: 'main',
-            description: '欢迎来到我的博客，这里搜集了我的技术文章和生活感悟，欢迎一起交流成长。',
+            description: '',
             exclude: [
                 '**/.*',
                 '**/package.json',
@@ -77,7 +77,7 @@ export default {
             root: '/',
             serve: false,
             srcDir: '.',
-            theme: 'blog',
+            theme: 'docs',
             title: 'YNlwys的博客',
             watch: false
         }, content: null, head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),
