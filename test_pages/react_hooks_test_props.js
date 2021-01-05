@@ -77,7 +77,7 @@ export default {
             root: '/',
             serve: false,
             srcDir: '.',
-            theme: 'https://raw.githubusercontent.com/ynlwys/pagic/master/src/themes/blog/mod.ts',
+            theme: 'blog',
             title: 'YNlwys的博客',
             watch: false
         }, content: null, head: null, layoutPath: "_layout.tsx", outputPath: "test_pages/react_hooks_test.html", pagePath: "test_pages/react_hooks_test.tsx", script: null, title: "React hooks test" }),

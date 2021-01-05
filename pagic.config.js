@@ -1,5 +1,5 @@
 export default {
-    theme: 'https://raw.githubusercontent.com/ynlwys/pagic/master/src/themes/blog/mod.ts',
+    theme: 'blog',
     plugins: ['blog'],
     title: 'YNlwys的博客',
     description: '欢迎来到我的博客，这里搜集了我的技术文章和生活感悟，欢迎一起交流成长。',
