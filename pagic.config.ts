@@ -1,6 +1,22 @@
 export default {
   theme: 'docs',
-  plugins: ['blog'],
+  sidebar: {
+    '/docs/': [
+      'docs/introduction.md',
+      'docs/usage.md',
+      'docs/config.md',
+      'docs/content.md',
+      'docs/layout.md',
+      'docs/themes.md',
+      'docs/plugins.md',
+      'docs/blog.md',
+      'docs/i18n.md',
+      'docs/deployment.md',
+      'docs/demos.md',
+      'docs/limitations.md',
+    ],
+  },  
+  plugins: ['blog','sidebar'],
   title: 'YNlwys的博客',
   description: '',
   blog: {
