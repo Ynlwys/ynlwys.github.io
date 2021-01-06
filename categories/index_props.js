@@ -29,6 +29,7 @@ export default {
     'updated': "2021-01-06T08:37:40.000Z",
     'excerpt': "1. Click the Use this template button in this repo 2. Enter the Repository name and click the Create repository from template button 3. Edit pagic.config.ts file, replace pagic_template_docs by the Repository n...",
     'cover': undefined,
+    'sidebar': [],
     'blog': {
         "isPost": false,
         "posts": [],

@@ -1,7 +1,7 @@
 export default {
     theme: 'docs',
     sidebar: {
-        '/docs/': [
+        '/categories/': [
             'docs/introduction.md',
             'docs/usage.md',
             'docs/config.md',
