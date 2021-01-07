@@ -47,7 +47,7 @@ aside {
   margin: var(--height-header) 0 0 0;
   top: 0;
   left: calc(40% - 40rem);
-  height: 60rem;
+  height: 55rem;
 }
 aside h1 {
   text-align: center;
