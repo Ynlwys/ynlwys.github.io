@@ -1,5 +1,5 @@
 export default {
-  theme: 'docs',
+  theme: 'blog',
   sidebar: {
     '/categories/': [
       'categories/introduction.md',
