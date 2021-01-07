@@ -6,7 +6,7 @@ export default {
     'outputPath': "about/index.html",
     'title': "关于",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>关于</h1>\n<p>The about page.</p>'
+            __html: '<h1>关于</h1>\n<p>人生何处不相逢,相逢何必曾相识</p>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
@@ -15,7 +15,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u5173\u4E8E"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<p>The about page.</p>'
+            __html: '<p>人生何处不相逢,相逢何必曾相识</p>'
         } }),
     'toc': null,
     'author': "Ynlwys",
@@ -24,8 +24,8 @@ export default {
         "YNlwys"
     ],
     'date': "2020-12-31T03:19:40.000Z",
-    'updated': "2021-01-07T07:56:12.000Z",
-    'excerpt': "The about page.",
+    'updated': "2021-01-07T08:30:05.000Z",
+    'excerpt': "人生何处不相逢,相逢何必曾相识",
     'cover': undefined,
     'blog': {
         "isPost": false,
