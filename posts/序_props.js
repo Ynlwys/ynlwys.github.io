@@ -1,41 +1,40 @@
 import projectConfig from '/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "categories/README.md",
-    'layoutPath': "categories/_layout.tsx",
-    'outputPath': "categories/index.html",
-    'title': "分类",
+    'pagePath': "posts/序.md",
+    'layoutPath': "posts/_layout.tsx",
+    'outputPath': "posts/序.html",
+    'title': "博",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>分类</h1>'
+            __html: '<h1>博</h1>\n<p>序</p>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/index.js", type: "module" })),
-    'contentTitle': React.createElement("h1", { key: "0" }, "\u5206\u7C7B"),
+    'contentTitle': React.createElement("h1", { key: "0" }, "\u535A"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: ''
+            __html: '<p>序</p>'
         } }),
     'toc': null,
-    'author': "Ynlwys",
+    'author': "YNlwys",
     'contributors': [
-        "Ynlwys",
         "YNlwys"
     ],
-    'date': "2020-12-31T03:19:40.000Z",
-    'updated': "2021-01-07T02:39:01.000Z",
-    'excerpt': "",
+    'date': "2021-01-07T02:39:01.000Z",
+    'updated': null,
+    'excerpt': "序",
     'cover': undefined,
-    'sidebar': [
-        {
-            "text": "分类",
-            "link": "categories/index.html",
-            "pagePath": "categories/README.md"
-        }
+    'categories': [
+        "界"
+    ],
+    'tags': [
+        "量",
+        "度"
     ],
     'blog': {
-        "isPost": false,
+        "isPost": true,
         "posts": [
             {
                 "pagePath": "posts/序.md",

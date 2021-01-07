@@ -28,8 +28,42 @@ export default {
     'cover': undefined,
     'blog': {
         "isPost": false,
-        "posts": [],
-        "categories": [],
-        "tags": []
+        "posts": [
+            {
+                "pagePath": "posts/序.md",
+                "title": "博",
+                "link": "posts/序.html",
+                "date": "2021-01-07T02:39:01.000Z",
+                "updated": null,
+                "author": "YNlwys",
+                "contributors": [
+                    "YNlwys"
+                ],
+                "categories": [
+                    "界"
+                ],
+                "tags": [
+                    "量",
+                    "度"
+                ],
+                "excerpt": "序"
+            }
+        ],
+        "categories": [
+            {
+                "name": "界",
+                "count": 1
+            }
+        ],
+        "tags": [
+            {
+                "name": "度",
+                "count": 1
+            },
+            {
+                "name": "量",
+                "count": 1
+            }
+        ]
     }
 };
