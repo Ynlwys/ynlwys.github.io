@@ -1,21 +1,21 @@
 import projectConfig from '/pagic.config.js';
 export default {
     config: { "root": "/", ...projectConfig, branch: 'main' },
-    'pagePath': "about/README.md",
-    'layoutPath': "_layout.tsx",
-    'outputPath': "about/index.html",
-    'title': "关于",
+    'pagePath': "posts/1.md",
+    'layoutPath': "posts/_layout.tsx",
+    'outputPath': "posts/1.html",
+    'title': undefined,
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>关于</h1>\n<pre><code>    人生何处不相逢,相逢何必曾相识\n</code></pre>'
+            __html: ''
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
         React.createElement("script", { src: "/index.js", type: "module" })),
-    'contentTitle': React.createElement("h1", { key: "0" }, "\u5173\u4E8E"),
+    'contentTitle': undefined,
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<pre><code>    人生何处不相逢,相逢何必曾相识\n</code></pre>'
+            __html: ''
         } }),
     'toc': null,
     'author': "Ynlwys",
@@ -24,11 +24,11 @@ export default {
         "YNlwys"
     ],
     'date': "2020-12-31T03:19:40.000Z",
-    'updated': "2021-01-08T01:53:50.000Z",
-    'excerpt': " 人生何处不相逢,相逢何必曾相识 ",
+    'updated': "2021-01-08T02:47:15.000Z",
+    'excerpt': "",
     'cover': undefined,
     'blog': {
-        "isPost": false,
+        "isPost": true,
         "posts": [
             {
                 "pagePath": "posts/Tmux使用技巧.md",

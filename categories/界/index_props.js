@@ -36,13 +36,25 @@ export default {
         ],
         "categories": [
             {
+                "name": "技术",
+                "count": 1
+            },
+            {
                 "name": "界",
                 "count": 1
             }
         ],
         "tags": [
             {
+                "name": "Mac",
+                "count": 1
+            },
+            {
                 "name": "度",
+                "count": 1
+            },
+            {
+                "name": "快捷键",
                 "count": 1
             },
             {
