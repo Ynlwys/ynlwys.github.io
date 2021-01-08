@@ -18,7 +18,7 @@ export default {
     },
     plugins: ['blog', 'sidebar'],
     title: 'YNlwys的博客',
-    description: '',
+    description: '欢迎来到这里。',
     blog: {
         root: '/posts/',
         social: {
