@@ -67,18 +67,6 @@ export default {
                     "度"
                 ],
                 "excerpt": "序"
-            },
-            {
-                "pagePath": "posts/1.md",
-                "link": "posts/1.html",
-                "date": "2020-12-31T03:19:40.000Z",
-                "updated": "2021-01-08T02:47:15.000Z",
-                "author": "Ynlwys",
-                "contributors": [
-                    "Ynlwys",
-                    "YNlwys"
-                ],
-                "excerpt": ""
             }
         ],
         "categories": [
