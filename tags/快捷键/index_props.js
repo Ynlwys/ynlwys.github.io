@@ -38,10 +38,6 @@ export default {
             {
                 "name": "技术",
                 "count": 1
-            },
-            {
-                "name": "界",
-                "count": 1
             }
         ],
         "tags": [
@@ -50,15 +46,7 @@ export default {
                 "count": 1
             },
             {
-                "name": "度",
-                "count": 1
-            },
-            {
                 "name": "快捷键",
-                "count": 1
-            },
-            {
-                "name": "量",
                 "count": 1
             }
         ]
