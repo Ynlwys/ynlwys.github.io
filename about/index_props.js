@@ -6,7 +6,7 @@ export default {
     'outputPath': "about/index.html",
     'title': "关于",
     'content': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<h1>关于</h1>\n<pre><code>    人生何处不相逢,相逢何必曾相识\n</code></pre>'
+            __html: '<h1>关于</h1>\n<blockquote>\n<p>人生何处不相逢,相逢何必曾相识</p>\n</blockquote>'
         } }),
     'head': null,
     'script': React.createElement(React.Fragment, null,
@@ -15,7 +15,7 @@ export default {
         React.createElement("script", { src: "/index.js", type: "module" })),
     'contentTitle': React.createElement("h1", { key: "0" }, "\u5173\u4E8E"),
     'contentBody': React.createElement("article", { dangerouslySetInnerHTML: {
-            __html: '<pre><code>    人生何处不相逢,相逢何必曾相识\n</code></pre>'
+            __html: '<blockquote>\n<p>人生何处不相逢,相逢何必曾相识</p>\n</blockquote>'
         } }),
     'toc': null,
     'author': "Ynlwys",
@@ -24,8 +24,8 @@ export default {
         "YNlwys"
     ],
     'date': "2020-12-31T03:19:40.000Z",
-    'updated': "2021-01-08T01:53:50.000Z",
-    'excerpt': " 人生何处不相逢,相逢何必曾相识 ",
+    'updated': "2021-01-12T07:35:48.000Z",
+    'excerpt': "",
     'cover': undefined,
     'blog': {
         "isPost": false,
